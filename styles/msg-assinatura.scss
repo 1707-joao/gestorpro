@@ -1,0 +1,38 @@
+#msg-assinatura {
+  text-align: center;
+
+  .time {
+    display: inline-block;
+    color: #FFF;
+    font-size: 16px;
+    margin-right: 15px;
+  }
+
+  .button {
+    padding: 7px 14px;
+    border-radius: 4px;
+    background-color: #000;
+    color: #FFF;
+    cursor: pointer;
+    text-decoration: none;
+  }
+
+  &.mobile {
+    border-bottom: 1px solid #DEE2E6;
+    margin-bottom: 18px;
+
+    .time {
+      font-size: 14px;
+      color: #000;
+      margin: 0 0 15px 0;
+    }
+  }
+
+  @media screen and (max-width: 1199px) {
+    display: none;
+
+    &.mobile {
+      display: block;
+    }
+  }
+}

@@ -1,0 +1,19 @@
+### CLUB VIP ###
+
+PLW DESIGN
+CLUB VIP
+
+Para dúvidas, atualizações e criação de novos módulos
+
+### INSTALAÇÃO DO SISTEMA
+
+1 - Crie um banco de dados em seu servidor de hospedagem e depois importe o bancov_3
+
+2 - Edite o arquivo Conexao.php que esta dentro da pasta do sistema > db/ Conexao.php < com as informações que pedem
+
+3 - Suba os arquivos do sistema em seu servidor de hospedagem
+
+4 - Ao acessa o sistema pela primeira vez utilize:
+
+Login: 123456
+Senha: 162894
